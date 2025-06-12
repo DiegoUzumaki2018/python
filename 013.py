@@ -1,0 +1,7 @@
+real=int(input(" Quantos reais vc tem? "))
+dolares=float(real*5.64)
+euros=float(real*6.41)
+iene=float(real*0.039)
+print("Voce tem equivalente a " + str(dolares) + " dólares ")
+print("Voce tem equivalente a " + str(euros) + " euros ")
+print("Voce tem equivalente a " +str(iene) + " iene ")

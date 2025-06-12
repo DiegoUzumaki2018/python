@@ -1,0 +1,7 @@
+peso=int(input("Qual sua massa muscular?"))
+gordura=int(input("Qual era sua massa de gordura?"))
+dias=int(input("Quantos dias vai pra academia?"))
+dias2=int(peso+20)
+kilos=int(gordura-40)
+peso2=int(peso-gordura)
+print("Você pensava" + str(peso) + " e perdeu " + str(kilos) + "kilos porem ganhou" + str(dias) + "de massa muscular,pensando hoje" + str(peso2))

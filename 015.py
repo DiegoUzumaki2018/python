@@ -1,0 +1,6 @@
+km=float(input(" Quantos kilometros vc percorreu? "))
+dias=int(input(" Quantos dias ele foi alugado? "))
+kmp=float(km*0.15)
+diap=int(dias*60)
+pagar=float(diap+kmp)
+print(" o preço final é " + str(pagar) )
