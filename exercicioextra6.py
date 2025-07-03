@@ -1,0 +1,7 @@
+metro=int(input("quanto devera os metros?"))
+litros=int(0)
+litros2=int(0)
+reais=int(metro*3)
+reais2=int(reais*litros)
+total=int(reais2/metro)
+print(f"o total é {total}")

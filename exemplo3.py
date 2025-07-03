@@ -22,8 +22,11 @@ match r:
         print("gosta de carne")
     case "queijo":
         print("gosta de queijo")
+
     case "frango":
         print("gosta de frango")
+
+
 
 
 
