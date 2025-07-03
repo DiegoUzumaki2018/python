@@ -1,0 +1,10 @@
+import trabalho3funcões10 as fn
+a=int(input("Qual é o peso  da terra?"))
+print("[1] mercurio")
+print("[2] venus")
+print("[3] marte")
+print("[4] jupiter")
+print("[5] saturno")
+print("[6] urano")
+b=int(input("Qual deles?"))
+fn.planeta(a,b)
